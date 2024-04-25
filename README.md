@@ -4,7 +4,8 @@ First you need to clone the Project Repository from the link using command:
 git clone https://gitlab.com/nanuchi/developing-with-docker <br>
 To run a Three Tier Application, we need to run three Docker Containers simultaneously. So, it is necessary to run all these containers inside a network to avoid their interaction with other containers. 
 So, Network can be created by using the following command after starting the Docker Engine with name mongo-network<br>
-![1](https://github.com/jatinsce21/21BCP436D.github.io/assets/138685788/e1ef96ad-4694-44b8-a2f4-6d8358b1a80a)
+![Screenshot 2024-04-24 222357](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/96501a87-d3d9-44fd-a067-aac1665d2ab3)
+
 <br>
 You can see all the networks using the command: docker network ls. Now, we need to pull the image of MongoDB from DockerHub and make container from it. Then we need to run this container in the network to access MongoDB Database using Docker Container.<br>
 ![2](https://github.com/jatinsce21/21BCP436D.github.io/assets/138685788/234620bc-3194-475f-9b01-c543b6c57c28)
