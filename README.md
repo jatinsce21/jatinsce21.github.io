@@ -26,13 +26,12 @@ Naviagate to the server.js file in the project and replace mongoUrlLocal and mon
 create a new Dockerfile inside the app folder of the project with the following commands
 FROM node WORKDIR /app COPY . . ENV MONGO_DB_USERNAME=admin ENV MONGO_DB_PWD=password RUN npm install EXPOSE 3000 CMD [“node”, “server.js”]<br>
 ![Screenshot 2024-04-24 225212](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/9a21cb53-85c2-4bb7-9d0c-bd0f6aa4d688)
-Open the CMD Terminal inside the app folder of the project and run the command 
+Open the CMD Terminal inside the app folder of the project and run the command <br>
 ![Screenshot 2024-04-24 225732](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/61b6c976-01ed-4849-a65d-4004581f3b08)
-To run the Image as a Docker Container run the command
+To run the Image as a Docker Container run the command<br>
 ![Screenshot 2024-04-24 230657](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/aa9c0b4f-3de7-4590-8f13-38cf20ae4de6)<br>
-Now, open the following link on you browser localhost:3000 and you will see a webpage running.
+Now, open the following link on you browser localhost:3000 and you will see a webpage running.<br>
 ![Screenshot 2024-04-24 231754](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/8e6fe516-feb9-4bab-a476-08be2d4ca7a2)
-To push the Docker Image of the project run the command
+To push the Docker Image of the project run the command<br>
 ![Screenshot 2024-04-24 231754](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/e035b57e-f21b-4d6b-931f-0fbc1c357528)
-<br>
 Docker hub repository link : <a href="https://hub.docker.com/repository/docker/mauli573/21bcp079-image/general">https://hub.docker.com/repository/docker/jatinsce21/21bcp436dimage/general</a>
