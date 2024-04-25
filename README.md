@@ -33,5 +33,5 @@ To run the Image as a Docker Container run the command<br>
 Now, open the following link on you browser localhost:3000 and you will see a webpage running.<br>
 ![Screenshot 2024-04-24 231754](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/8e6fe516-feb9-4bab-a476-08be2d4ca7a2)<br>
 To push the Docker Image of the project run the command<br>
-![Screenshot 2024-04-24 231754](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/e035b57e-f21b-4d6b-931f-0fbc1c357528)<br>
+![Screenshot 2024-04-24 232304](https://github.com/jatinsce21/jatinsce21.github.io/assets/138685788/82a84e5e-e09e-41ee-8b6f-417e534feff2)<br>
 Docker hub repository link : <a href="https://hub.docker.com/repository/docker/mauli573/21bcp079-image/general">https://hub.docker.com/repository/docker/jatinsce21/21bcp436dimage/general</a>
